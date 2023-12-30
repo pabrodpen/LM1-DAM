@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var n1,n2,n3;
+        let f1=function comparador(n1,n2,n3){
+            menor=n1;
+            /*menor tiene que estar definido despjues de que n1 este definido*/
+           if(menor>n2){
+            menor=n2;
+           }
+           if(menor>n3){
+            menor=n3;
+           }
+           return menor;
+        }
+
+        document.write(`Numero menor:${f1(2,5,7)}`);
+    </script>
+</body>
+</html>

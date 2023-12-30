@@ -1,0 +1,20 @@
+
+table,td{
+    text-align: center;
+    border: 1px solid black;
+}
+.fila1{
+    background-color: #9370DB;
+    font-weight: bold;
+}
+.negrita{
+    font-weight: bold;
+    background-color: #708090;
+}
+.imagen{
+    background-image: url(../imagenes/1352718809_youtube_shop.png);
+}
+.columna1{
+    background-color: #A0522D;
+    font-family: 'Courier New', Courier, monospace;
+}

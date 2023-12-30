@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+
+
+        let valor=0,total=0;
+
+    let f1=function sumaAcumulada(){
+                
+        while(valor!=9999){
+            valor=prompt('Dime un numero:','');
+            if(valor!=9999){
+                valor=parseInt(valor);
+                    total+=valor;
+                }else{
+                    document.write('Carga finalizada');     
+                }
+        }
+
+        return total;
+    }
+    document.write('<br>');
+    document.write(`Suma:${f1()}`);
+
+    </script>
+</body>
+</html>

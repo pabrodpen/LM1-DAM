@@ -1,0 +1,58 @@
+.logotipo{
+    padding: 5px;
+    width: 800px;
+    float: left;
+    margin-left: 200px;
+    height: 50px;
+    background-color: yellow;
+}
+.cabecera{
+    padding: 5px;
+    width: 800px;
+    float: left;
+    margin-left: 200px;
+    height: 30px;
+    background-color: salmon;
+}
+.izq{
+    float: right;
+    margin-right: 282px;
+    width: 200px;
+    height: 400px;
+    background-color: orangered;
+}
+.der{
+    float: left;
+    width: 610px;
+    margin-left: 200px;
+    height: 400px;
+    background-color: white;
+}
+.pie1{
+    padding: 5px;
+    width: 400px;
+    float: left;
+    margin-left: 200px;
+    height: 30px;
+    background-color: red;
+}
+.pie2{
+    padding: 5px;
+    width: 390px;
+    float: right;
+    margin-right: 282px;
+    height: 30px;
+    background-color: green;
+}
+.contenedor{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+iframe{
+    float: left;
+    width: 610px;
+    margin-left: 200px;
+    height: 400px;
+    background-color: white;
+}

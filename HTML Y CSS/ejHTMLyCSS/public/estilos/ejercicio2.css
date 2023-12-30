@@ -1,0 +1,40 @@
+#divInterior{
+    background-color: rgb(255,148,25);
+    width: 100%;
+    height: 100%;
+    display: block; /*Display inline hace que no afecten width y height*/
+  }
+  
+  #divExterior{
+    width: 50%;
+    height:100%; /* 100% del tamaño ocupado por su contenido. El alto del padre depende del alto del contenido */
+    /*height:100vw;*/ /*100% del ViewPort ,Pantalla, */
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:brown;
+    background-color: rgb(250,230,120);
+   
+  }
+  
+  body{
+    margin:0px;
+   
+  }
+  
+  body{
+    margin:0px;
+   
+  }
+
+  #divFlex{
+    display: inline;
+    flex-direction:row;
+    background-color:red;
+    height: 100vh;
+    width: 100vw;
+   
+  }
+

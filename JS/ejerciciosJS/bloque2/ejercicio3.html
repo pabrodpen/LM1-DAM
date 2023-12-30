@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--IMP EL PARSE INT , SI NO SALE LOS VALORES CONCATENADOS-->
+    <script>
+        var numBajo=0,numAlto=0,total=0,numSueldos=0,sueldo;
+        function tipoSueldo(n){
+            if(n>300){
+                numAlto++;
+            }else{
+                numBajo++;
+            }
+        }
+
+        while(numSueldos<5){
+            sueldo=prompt('Sueldo:','');
+            tipoSueldo(sueldo);
+            sueldo=parseInt(sueldo);
+            total+=sueldo;
+            numSueldos++;
+        }
+        document.write('Sueldos entre 100 y 300:'+numBajo);
+        document.write('<br>');
+        document.write('Sueldos mayores de 300:'+numAlto);
+        document.write('<br>');
+        document.write('Suma de sueldos:'+total);
+        document.write('<br>');
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+#cuadrado1{
+    background-color: blue;
+    width: 40vw;
+    height: 45vh;
+    float: left;
+    margin-left: 9%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px white;
+}
+#cuadrado2{
+    width: 40vw;
+    height: 45vh;
+    background-color: red;
+    float: right;
+    margin-right: 9%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px white;/*borde exterior*/
+}
+#cuadrado3{
+    width: 40vw;
+    height: 45vh;
+    background-color: yellow;
+    float: left;
+    margin-left: 9%;
+    border-radius: 10px;/*sin bordes en las esquinas*/
+    box-shadow: 0px 0px 10px 1px white;
+}
+#cuadrado4{
+    width: 40vw;
+    height: 45vh;
+    background-color: green;
+    float: right;
+    margin-right: 9%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px white;
+}
+/*vh=porcentaje de vista horizontal*/
+ul{
+    padding: 5px; margin: 0;
+    width: 160px;
+    list-style: none;
+    background: #F5A9F2;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 10px;
+}
+li a{
+    padding: .2em 0 .2em 1.5em;
+    display: block;
+    text-decoration: none;
+    background: #F4F4F4;
+}
+li{border-top: 2px solid #FFFFFF;}
+
+iframe{
+    width: 38vw;
+    height: 43vh;
+    margin-top: 1%;
+    margin-left: 2%;
+    border-radius: 10px;
+}

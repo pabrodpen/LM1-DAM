@@ -1,0 +1,21 @@
+#table{
+    border-collapse: 0;
+    text-align: center;
+}
+.encabezado{
+    background-color: #fef4ea;
+    font-size: 15px;
+}
+.pie{
+    color: #bf356f;
+    background-color: #fef4ea;
+    font-weight: bold;
+}
+.aulaClic{
+    font-weight: bold;
+    color: blue;
+    font-size: 22px;
+}
+.negrita{
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <p>¿Que procesador quieres?</p>
+    <select id="procesador" onchange="precios()">
+        <option value="intel">Intel</option>
+        <option value="amd">AMD</option>
+    </select>
+    <br>
+    <p>¿Cuanta memoria quieres?</p>
+    <select id="memoria" onchange="precios()">
+        <option>2</option>
+        <option>4</option>
+        <option>8</option>
+    </select>
+
+    <p>Extras</p>
+    <br>
+    Grabador de blu-ray
+    <input type="checkbox" id="grabador" onchange="precios()"><br>
+    Tarjeta grafica
+    <input type="checkbox" id="grafica" onchange="precios()"><br>
+    Monitor LED
+    <input type="checkbox" id="monitor" onchange="precios()"><br>
+
+    <p id="resultado"></p>
+
+    <script src="js/ej.js"></script>
+</body>
+</html>

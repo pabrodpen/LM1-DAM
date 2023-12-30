@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+<!--Realizar un programa con una página que permita tomar un examen múltiple
+choice. Se debe mostrar una pregunta y seguidamente un objeto SELECT con las respuestas
+posibles.  Habrá también un botón. Al
+pasar el ratón por encima de un botón mostrar la cantidad de respuestas
+correctas e incorrectas,-->
+
+  <p>¿Cuanto es 1+1?</p>
+  <select id="pregunta">
+    <option id="2">2</option>
+    <option id="3">3</option>
+    <option id="4">4</option>
+    <option id="4">4</option>
+  </select>
+  <br>
+  <input type="button" value="Confirmar respuesta" onclick="acierto()" onmouseover="numRespuestas()" 
+  onmouseout="limpiarTxtRespuestas()">
+  <br>
+  <br>
+  <p id="respuestas"></p>
+  <br>
+  <p id="resultado"></p>
+  <script src="js/ejFormulario.js"></script>
+</body>
+</html>

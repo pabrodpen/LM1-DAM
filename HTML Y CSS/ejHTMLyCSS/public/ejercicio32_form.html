@@ -1,0 +1,50 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form action="" method="post" id="formulario1">
+
+<b>Información sobre el producto</b>
+<fieldset>
+	<legend>Datos básicos</legend>
+		<label for="ejercicio1">Nombre</label>
+		<br>
+		<input type="text" size ="60" name="nombre">
+		<br>
+		<label for="ejercicio1">Descripción</label>
+		<br>
+		<textarea id="msg" name="description" cols="90" rows="15"></textarea>
+		<br>
+		<label for="ejercicio1">Foto</label>
+		<button type="text" type="file" name="examinar">Examinar...</button>
+			<br>
+			<br>
+		 <input type="checkbox" name="contador" value="si" />Añadir contador de visitas
+</fieldset>
+<fieldset>
+	<legend>Datos económicos</legend>
+		<label for="ejercicio1">Precio</label>
+		<input type="text" size ="20" name="nombre">
+		<label for="ejercicio1">€</label>
+		<label for="ejercicio1">Impuestos</label>
+		 	<select name="impuestos">
+				<option value="4" selected="selected">4%</option>
+    			<option value="10">10%</option>
+    			<option value="15">15%</option>
+    		</select>
+    	<br>
+    	<br>
+    	<label for="ejercicio1">Promoción</label>
+    	<br>
+    	<input type="radio" name="promocion" id="value" value="ninguno" checked="radio">Ninguno
+    	<br>
+  		<input type="radio" name="promocion" id="value" value="gratis">Transporte gratuito
+  		<br>
+  		<input type="radio" name="promocion" id="value" value="5">Descuento 5%
+</fieldset>
+</form>
+</body>
+</html>

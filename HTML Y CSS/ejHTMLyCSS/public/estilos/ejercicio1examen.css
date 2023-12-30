@@ -1,0 +1,106 @@
+.contenedor{
+    background-color: #ffcccc;
+    width: 100vw;
+    height: 100vh;
+}
+.logotipo{
+    padding: 1%;
+    width: 54vw;
+    float: left;
+    margin-left: 22vw;
+    height: 8vh;
+    background-color: #fff15d;
+}
+.cabecera{
+    padding: 1%;
+    width: 54vw;
+    float: left;
+    margin-left: 22vw;
+    height: 4vh;
+    background-color: #F78181;
+}
+.izq{
+    margin-top: 2vh;
+    float: right;
+    margin-right: 22vw;
+    width: 13vw;
+    height: 60vh;
+    background-color: #FFCD61;
+    padding: 1%;
+}
+.der{
+    margin-top: 2vh;
+    padding: 1%;
+    float:left;
+    margin-left: 22vw;
+    width: 39vw;
+    height: 60vh;
+    background-color: white;
+}
+.pie{
+    margin-top: 2vh;
+    width: 56vw;
+    float: left;
+    margin-left: 22vw;
+    height: 8vh;
+}
+.pie1{
+    width: 28vw;
+    float: left;
+    height: 7vh;
+    background-color: red;
+}
+.pie2{
+    width: 28vw;
+    float: right;
+    height: 7vh;
+    background-color: yellow;
+}
+.menu{
+    border: 0px;
+    width: 11vw;
+    height: 50vh;
+}
+
+ul{
+    list-style: none;
+    border: 1px solid grey;
+    margin-left: 0;
+    background-color: white;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+li{
+    background-color: white;
+    border-top: 0;
+}
+li a:hover,li a:active{background: #58FA58;}
+.marco{
+    border: 0;
+    width: 39vw;
+    height: 60vh;
+}
+img{
+    border: 0;
+    float: right;
+    width: 6vw;
+    height: 15vh;
+}
+/*.textologotipo{
+    color: green;
+}
+.textolcabecera{
+    color: green;
+}
+.textoizq{
+    color: green;
+}
+.textopie1{
+    color: red;
+}
+.textopie2{
+    color: red;
+}*/

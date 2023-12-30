@@ -1,0 +1,31 @@
+#contenido{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;/*para centrarlo*/
+}
+#secundario{
+    width: 100px;
+    height: 350px;
+    float: left;
+    background-color: green;
+    padding: 5%;
+}
+#principal{
+    width: 300px;
+    height: 470px;
+    background-color: red;
+    padding: 5px;
+    margin-left: 230px;
+
+}
+#cabecera{
+    padding-top: 30px;
+    background-color: blue;
+    width: 540px;
+}
+#pie{
+    padding-top: 30px;
+    background-color: yellow;
+    width: 540px;
+}

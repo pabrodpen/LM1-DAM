@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--IMP PREGUNTAR  EL NUMERO DOCUMENTO AL FINAL DEL BUCLE Y ANTES DEL BUCLE PARA EL PRIMERO-->
+    <script>
+        numDoc=prompt('Numero de documento:','');
+
+        while(numDoc!=0){
+            var numDoc,edad,sexo;
+        var numH=0,numM=0,numPersonas=0,numHombresEdad=0;
+        
+            edad=prompt('Edad:','');
+            sexo=prompt('Sexo:','');
+
+            if(sexo=='femenino'){
+                numM++;
+            }else{
+                numH++;
+            }
+
+            if(edad>=16 && edad<=65){
+                numHombresEdad++;
+            }
+            numPersonas++;
+            numDoc=prompt('Numero de documento:','');
+        }
+
+        document.write('Numero de censados:'+numPersonas);
+        document.write('<br>');
+        document.write('Numero de hombres:'+numH);
+        document.write('<br>');
+        document.write('Numero de mujeres:'+numM);
+        document.write('<br>');
+        document.write('Numero de hombres entre 16 y 65 años:'+numHombresEdad);
+        
+    </script>
+</body>
+</html>

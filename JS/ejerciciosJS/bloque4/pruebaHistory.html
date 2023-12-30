@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historial de navegación</title>
+</head>
+<body>
+	<h1>Historial de navegación</h1>
+	<p>Esta es la página principal</p>
+	<button onclick="goBack()">Volver atrás</button>
+	<button onclick="goForward()">Avanzar</button>
+	<button onclick="goToPage()">Ir a la página 3</button>
+	<script>
+		function goBack() {
+			window.history.back();
+		}
+
+		function goForward() {
+			window.history.forward();
+		}
+
+		function goToPage() {
+			window.history.go(2);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.contenedor{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+.logotipo{
+    padding: 1%;
+    width: 54vw;
+    float: left;
+    margin-left: 22vw;
+    height: 8vh;
+    background-color: yellow;
+}
+.cabecera{
+    padding: 1%;
+    width: 54vw;
+    float: left;
+    margin-left: 22vw;
+    height: 4vh;
+    background-color: salmon;
+}
+.izq{
+    float: right;
+    margin-right: 22vw;
+    width: 13vw;
+    height: 60vh;
+    background-color: orangered;
+    padding: 1%;
+}
+.der{
+    padding: 1%;
+    float:left;
+    margin-left: 22vw;
+    width: 39vw;
+    height: 60vh;
+    background-color: white;
+}
+.pie{
+    width: 56vw;
+    float: left;
+    margin-left: 22vw;
+    height: 8vh;
+}
+.pie1{
+    width: 28vw;
+    float: left;
+    height: 7vh;
+    background-color: red;
+}
+.pie2{
+    width: 28vw;
+    float: right;
+    height: 7vh;
+    background-color: green;
+}
+.iframe1{
+    width: 39vw;
+    height: 60vh;
+}
+.iframe2{
+    width: 28vw;
+    height: 7vh;
+}
+    li a{
+        padding: .2em 0 .2em 1.5em;
+        display: block;
+        text-decoration: none;
+        background: #F4F4F4;
+    }
+    li{border-top: 2px solid #FFFFFF;}
+    li a:hover, li a:active {background: #f3f781;}
+    li a:visited {color: black;}

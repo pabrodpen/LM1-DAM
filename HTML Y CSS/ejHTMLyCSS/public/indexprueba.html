@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <link rel="stylesheet" href="estilos/index.css">
+  <meta charset="UTF-8">
+  <title>CodePen - Bootstrap 4 Responsive Dropdown Submenu</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Hidden brand</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Primer Trimestre
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item enlace " href="ejercicio2.html" >ejercicio2</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio3.html"  >ejercicio3</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio4.html"  >ejercicio4</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio10.html" >ejercicio10</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio11.html" >ejercicio11</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio12.html">ejercicio12</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio14.html" >ejercicio14</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejerciciodiscoduro.html" >ejerciciodiscoduro</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejerciciomapa.html" >ejerciciomapa</a><br /></li>
+                <li><a class="dropdown-item enlace " href="frames1.html" >ejercicioframes1</a><br /></li>
+                <li><a class="dropdown-item enlace " href="frames2.html">ejercicioframes2</a><br /></li>
+                <li><a class="dropdown-item enlace " href="frames3.html" >ejercicioframes3</a><br /></li>
+                <li><a class="dropdown-item enlace " href="ejercicio_tablas_propuesta_2.5.html" >ejerciciotablas2.5</a><br /></li>
+                <li><a class="dropdown-item enlace " href="tablashorario.html" >tablashorario</a><br /></li>
+                <li><a class="dropdown-item enlace " href="tablas2.html" >tablas2</a><br /></li>
+                <li><a class="dropdown-item enlace " href="videos.html" >videos</a><br /></li>
+                <li><a class="dropdown-item enlace " href="formularios_index.html" >formularios</a><br /></li>
+                <li><a class="dropdown-item enlace " href="buscador.html" >buscador</a><br /></li>
+                <li><a class="dropdown-item enlace " href="formulario_google.html" >formulario google</a><br /></li>
+                <li><a class="dropdown-item enlace " href="pagina_web.html" >página grupo de música</a><br /></li>
+                <li><a class="dropdown-item enlace " href="pagina_web2.html" >página receta</a><br /></li>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Segundo Trimestre
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Tercer Trimestre
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!--el ul es cada submenu-->
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Submenu action</a></li>
+              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="row">
+    <div class="col-2 izq">
+        <a class="enlace btn btn-danger" href="ejerciciodiscoduro.html">Wikipedia</a><br/>
+        <a class="enlace btn btn-danger" href="pagina_web.html">Grupo de musica</a><br/>
+        <a class="enlace btn btn-danger" href="pagina_web2.html">Receta</a><br/>
+        <a class="enlace btn btn-danger" href="tablashorarioconcss.html">Tabla horario</a><br/>
+        <a class="enlace btn btn-danger" href="ejerciciomapa.html">Mapa de Andalucia</a><br/>
+        <a class="enlace btn btn-danger" href="contenedores_colores.html">Div de colores</a><br/>
+    </div>
+    <div class="col-10 der" id="enlace">
+    </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script><script  src="./js/submenu.js"></script>
+
+</body>
+</html>

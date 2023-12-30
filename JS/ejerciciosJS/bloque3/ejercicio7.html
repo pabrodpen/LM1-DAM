@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <script>
+        function tipoDeporte(){
+            if(document.getElementById('checkbox1').checked){
+                document.write('Futbol');
+                document.write('<br>');
+            }
+
+            if(document.getElementById('checkbox2').checked){
+                document.write('Tenis');
+                document.write('<br>');
+            }
+
+            if(document.getElementById('checkbox3').checked){
+                document.write('Baloncesto');
+                document.write('<br>');
+            }
+        }
+    </script>
+
+    <form>
+        <input type="checkbox" id="checkbox1">Fútbol
+        <br>
+        <input type="checkbox" id="checkbox2">Tenis
+        <br>
+        <input type="checkbox" id="checkbox3">Baloncesto
+        <br>
+        <input type="button" value="Confirmar" onclick="tipoDeporte()">
+    </form>
+</body>
+</html>

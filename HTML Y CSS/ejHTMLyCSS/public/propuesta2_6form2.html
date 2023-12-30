@@ -1,0 +1,55 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form action="" method="post" id="formulario1">
+<font size="20"><center><b>DATOS DE ALUMNOS-CONTINUACIÓN</b></center></font>
+<fieldset>
+	<font size="5" color="red"><center>Teclea más datos</center></font>
+	<label color="blue" for="formulario2"><b>Teclea fecha de nacimiento</b></label>
+	<br>
+	<input type="datetime-local" name="fecha">
+	<br>
+	<br>
+	<label color="blue" for="formulario2"><font color="blue">Selecciona el curso:</font></label>
+	<select name="curso">
+		<option name="1ºSMR" selected="selected"><font color="blue">1ºCFGM</font></option>
+		<option name="2ºSMR"><font color="blue">2ºCFGM</font></option>
+		<option name="1ºDAM"><font color="blue">1ºCFGS</font></option>
+		<option name="2ºDAM"><font color="blue">2ºCFGS</font></option>
+	</select>
+	<br>
+	<br>
+    <hr>
+	<label for="si"><font color="blue">Elige 3 materias optativas</label>
+	<input type="checkbox" value="si" name="Inglés"><font color="blue">Inglés</font>
+	<input type="checkbox" value="si" name="Francés"><font color="blue">Francés</font>
+	<input type="checkbox" value="si" name="Deporte"><font color="blue">Deporte</font>
+	<input type="checkbox" value="si" name="Astronomía"><font color="blue">Astronomía</font>
+	<input type="checkbox" value="si" name="Historia"><font color="blue">Historia</font>
+	<input type="checkbox" value="si" name="Páginas web"><font color="blue">Páginas web</font>
+	<input type="checkbox" value="si" name="Redes"><font color="blue">Redes</font>
+	<br>
+	<br>
+     <hr>
+	<label for="formulario2">Selecciona el turno:</label>
+	<input type="radio" name="turno" id="diurno">
+    <label for="diurno"><font color="blue">Diurno</label>
+	<input type="radio" name="turno" id="nocturno">
+    <label for="nocturno"><font color="blue">Nocturno</label>
+	<input type="radio" name="turno" id="vespertino">
+    <label for="vespertino"><font color="blue">Vespertino</label>
+	<br>
+     <hr>
+	<button type="submit" name="enviar"><img src="imagenes/boton_enviar.jpg" height="30px"></button>
+	<button type="reset" name="limpiar"><img src="imagenes/boton_reseteo.jpg" height="30px"></button>
+	<button type="button" name="cerrar" onclick="window.close();"><img src="imagenes/imagen_cerrar_ventana.png" height="30px"></button>
+	 <button type="button" name="anterior" onclick="window.history.back();"><img src="imagenes/flecha_anterior.png" height="30px"></button>
+
+</fieldset>
+</form>
+</body>
+</html>

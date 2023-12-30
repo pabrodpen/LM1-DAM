@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var nNeg=0,nPosit=0,nMult=0,suma=0,num;
+        function tipoNumero(n){
+            var i;
+
+                if(n<0){
+                    nNeg++;
+                }else if(n>0){
+                    nPosit++;
+                }
+                if(n%15==0){
+                    nMult++;
+                }else if(n%2==0){
+                n=parseInt(n);
+                suma+=n;
+            }
+        }
+
+        for(i=0;i<10;i++){
+            num=prompt('Dime un numero:','');
+            tipoNumero(num);
+        }
+
+        document.write('Numeros negativos:'+nNeg);
+        document.write('<br>');
+        document.write('Numeros positivos:'+nPosit);
+        document.write('<br>');
+        document.write('Multiplos de 15:'+nMult);
+        document.write('<br>');
+        document.write('Suma de pares:'+suma);
+        
+    </script>
+</body>
+</html>

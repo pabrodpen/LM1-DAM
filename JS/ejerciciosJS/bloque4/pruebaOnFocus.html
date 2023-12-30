@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eventos onFocus y onBlur</title>
+</head>
+<body>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" onFocus="limpiar(this)" onBlur="verificar(this)">
+    <br>
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" onFocus="limpiar(this)" onBlur="verificar(this)">
+  </form>
+
+  <script>
+    function limpiar(elemento) {
+      // Esta función se activa cuando un elemento obtiene el foco de entrada
+      elemento.value = "";
+    }
+
+    function verificar(elemento) {
+      // Esta función se activa cuando un elemento pierde el foco de entrada
+      if (elemento.value == "") {
+        alert("El campo " + elemento.id + " no puede estar vacío");
+      }
+    }
+
+    function enlaces(url){
+      window.location.href=url;
+    }
+
+  </script>
+
+  <input type="button"  onclick="enlaces('https://www.google.com/')">Acceder
+</body>
+</html>

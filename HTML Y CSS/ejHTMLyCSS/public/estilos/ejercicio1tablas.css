@@ -1,0 +1,23 @@
+table{
+   text-align: center;
+}
+td{
+    border:1px solid black;
+}
+.celda1{
+    border-width: 0px;
+}
+.cabecera{
+    background-color: white;
+    color: white;
+    font-weight: bold;
+}
+.columna2{
+    background-color: red;
+}
+.columna3{
+    background-color: #C7FF33;
+}
+.columnapaises{
+    border:2px solid black;
+}

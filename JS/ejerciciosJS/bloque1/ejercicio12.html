@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var n=parseInt(prompt('Dime un numero de 1,2,o 3 cifras positivo:',''));
+        while(n<0 || n>999){
+            n=parseInt(prompt('Dime un numero de 1,2,o 3 cifras positivo:',''));
+        }
+        if(n>99){
+            document.write('Numero de 3 digitos');
+        }else{
+            if(n>9){
+                document.write('Numero de 2 digitos');
+            }else{
+                document.write('Numero de 1 digito');
+            }
+        }
+        
+    </script>
+</body>
+</html>

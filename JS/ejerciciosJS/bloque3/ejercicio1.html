@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var valores=new Array(8);
+        var suma=0,suma36=0,numMay50=0;
+        let f1=(valores)=>{
+           
+            for(let valor of valores){
+                suma+=valor;
+            }
+
+            return suma;
+        }
+
+        let f2=(valores)=>{
+          
+            for(let valor of valores){
+                if(valor>36){
+                    suma36+=valor;
+                }
+            }
+
+            return suma36;
+        }
+
+        let f3=(valores)=>{
+            
+            for(let valor of valores){
+                if(valor>50){
+                    numMay50++;
+                }
+            }
+
+            return numMay50;
+        }
+
+        /*for(let i=0;i<valores.length;i++){
+            valores[i]=parseInt(prompt('Dime un numero:',''));/*IMP
+        }*/
+
+        //este for hay que hacerlo con un for normal
+        for(let i=0;i<valores.length;i++){
+            valores[i]=parseInt(prompt('Dime un numero:',''));
+        }
+
+      
+
+
+        document.write(`Suma total:${f1(valores)}`);
+        document.write('<br>');
+        document.write(`Suma total de valores mayores de 36:${f2(valores)}`);
+        document.write('<br>');
+        document.write(`Numero de valores mayores de 50:${f3(valores)}`);
+    </script>
+</body>
+</html>

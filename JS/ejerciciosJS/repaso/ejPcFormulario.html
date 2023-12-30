@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script src="js/ejPcFormulario.js"></script>
+
+    <p>¿Qué procesador quieres?</p>
+    <select id="procesador" onchange="calcularPrecio()">
+        <option value="intel"selected>Intel</option>
+        <option value="amd">AMD</option>
+    </select>
+    
+    <p>¿Cuánta memoria quieres?</p>
+    <select id="memoria" onchange="calcularPrecio()">
+        <option value="2"  selected>2 GB</option>
+        <option value="4" >4 GB</option>
+        <option value="8" >8 GB</option>
+    </select>
+
+
+    <p>Elige elementos extras</p>
+
+    <p>Grabador de Blu-ray</p>
+
+    <input type="checkbox" id="grabador" onchange="calcularPrecio()">Grabador de Blu-ray<br>
+    <input type="checkbox" id="grafica" onchange="calcularPrecio()">Tarjeta gráfica aceleradora<br>
+    <input type="checkbox" id="monitor" onchange="calcularPrecio()">Monitor LED<br>
+
+
+    <p id="precioTotal"></p><!--aqui es donde aparece el maensaje en lugar de un alert-->
+
+</body>
+</html>

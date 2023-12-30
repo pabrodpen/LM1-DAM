@@ -1,0 +1,59 @@
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blueviolet;
+}
+.rojo{
+    background-color: red;
+}
+p{
+    text-align: center;
+}
+
+.sc1-ej1{
+    height: 10vh;
+}
+.sc2-ej1{
+    height: 60vh;
+}
+
+.sc1-ej2{
+    height: 10vh;
+}
+.sc2-ej2{
+    height: 88vh;
+}
+.sc1-ej3{
+    height: 10vh;
+}
+.sc2-ej3{
+    height: 82vh;
+}
+.sc3-ej3{
+    height: 8vh;
+}
+.sc1-ej4{
+    height: 10vh;
+}
+.sc2-ej4{
+    height: 90vh;
+}
+.sc1-ej7{
+    height: 10vh;
+}
+.sc2-ej7{
+    height: 90vh;
+}
+.sc3-ej7{
+    height: 45vh;
+}
+.sc1-ej8{
+    height: 10vh;
+}
+.sc2-ej8{
+    height: 70vh;
+}

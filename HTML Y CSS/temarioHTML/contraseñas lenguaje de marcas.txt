@@ -1,0 +1,16 @@
+Cpanel Username,FTP Username,MySQL Username: b10_32631686
+
+Cpanel,FTP,MySQL Password: Agosto02
+
+MySQL Databasa Name: MUST CREATE IN CPANEL
+
+MySQL Server: SEE THE CPANEL
+
+Your URL: http://cpanel.byethost10.com or http://www.pabrodpen.byethost10.com
+
+Cpanel URL,URL panel de control: http://cpanel.byethost10.com
+
+FTP Server: ftpupload.net
+
+nuevo index->https://proyectoprueba-18a30.web.app
+

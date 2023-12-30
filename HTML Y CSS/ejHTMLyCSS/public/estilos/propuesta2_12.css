@@ -1,0 +1,97 @@
+#principal{
+    background-color: #ffffbb;
+    padding: 5px;
+    margin-left: 210px;
+    border: 1px solid #555555;
+    font-size: 10px;
+    height: 450px;
+}
+#contenido{
+    width: 750px;
+    margin: 0 auto;
+    padding: 5px;
+}
+#secundario{
+    background-color: #ffff55;
+    padding: 5px;
+    width: 200px;
+    float: left;
+    height: 450px;    
+}
+#cabecera{
+    background-image: url(../imagenes/logotipo.jpg);
+    width: 58vw;
+    height:14vh;
+    padding-top: 15px;
+}
+#menu{
+    background-color: #F4F4F4;
+    color: #333;
+    border: 3px solid grey;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+/*como vamos a usar subclases de li para marcar las opciones, hacemos por separaddo la parte 
+de li*/
+ul{list-style: none; width: 130px;}
+li{border-top: 2px solid #FFFFFF;}/*esto es para separar las opciones*/
+li a:hover/*hace que se marque cuando el ration esta encima*/, li a:active /*hace que despues de clickar salga de ese color*/{background: #f3f781;}/*esto es para que salga en un color diferente
+    la opcion que se marca con el raton*/
+li a:visited {color: black;}/*esto es para que al pulsar una opcion esta quede en negro*/
+
+#principal h3{
+    background-color: white;
+    font-size: 20px;
+    color: #B4045F;
+}
+#secundario h3{
+    font-size: 20px;
+    color: #B4045F;
+}
+iframe{
+    width: 100%;
+    height: 90%;
+}
+img{
+    width: 50%;
+    float: right;
+}
+html, body{
+    font-family: verdana;
+	font-size: 10px;
+	color: #666666;
+	background-color: #333333;
+	height: 100%;;
+
+}
+#body2{
+    background-color: #ffffbb;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#pie{
+    clear: both;/*para que no divida en columnas*/
+    background-color: #338000;
+    height: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#enlaces {
+ text-decoration: none;
+ color: white;
+ float: left;   
+}
+#creador{
+    float: right;
+    margin-right: 13px;
+}
+#enlaces:hover{
+    color:blue;
+}

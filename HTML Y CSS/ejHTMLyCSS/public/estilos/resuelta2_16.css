@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    width: 600px;
+    color: green;
+}
+table th,table td{
+    border: 1px solid red;
+    padding: 0. 3em;
+    text-align: center;
+    height: 3em;
+}
+table th{
+    background-color: #cecef6;
+    font-family: "comic sans ms";
+
+}
+table tr{
+    background-color: #f5f6ce;
+}
+table tr:hover{background-color: #f5a9f2; font-size: 15px;}
+#ultimafila{
+    color: red;
+}
+.fila1{
+    
+}

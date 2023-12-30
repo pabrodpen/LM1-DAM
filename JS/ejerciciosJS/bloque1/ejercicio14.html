@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        
+        var sueldo=parseInt(prompt('Sueldo: ',''));
+        var antig=parseInt(prompt('Antiguedad: ',''));
+        if(sueldo<500 && antig>=10){
+            sueldo+=0.2*sueldo;
+            document.write('Nuevo sueldo'+sueldo);
+        }else if(sueldo<500 && antig<10){
+            sueldo+=0.05*sueldo;
+            document.write('Nuevo sueldo'+sueldo);
+        }else if(sueldo>=500){
+            document.write('Sueldo sin cambios'+sueldo);
+        }
+    </script>
+</body>
+</html>

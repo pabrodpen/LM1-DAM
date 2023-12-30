@@ -1,0 +1,21 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado{
+background-color: grey;
+height: 12vh;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.izq{
+    background-color: blue;
+    height: 90vh;
+}
+
+.contenido{
+overflow: scroll;
+}

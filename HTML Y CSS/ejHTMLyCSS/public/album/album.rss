@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Sample album</title>
+   	<link>.</link>
+        <generator>jAlbum 29.3</generator>
+   		<description>This is a sample album you can experiment with.</description>
+        <jalbum:absolutePath></jalbum:absolutePath>
+    	<jalbum:link rel="sub" href="Nature/album.rss" title="Nature" thumbnail="Nature/thumbs/diana-parkhouse.jpg" thumbnailWidth="276" thumbnailHeight="184" />
+    	<jalbum:link rel="sub" href="Architecture/album.rss" title="Architecture" thumbnail="Architecture/thumbs/arnt-oberschmidt.jpg" thumbnailWidth="230" thumbnailHeight="184" />
+    	<jalbum:link rel="sub" href="People/album.rss" title="People" thumbnail="People/thumbs/jj-jordan.jpg" thumbnailWidth="276" thumbnailHeight="184" />
+    </channel>
+</rss>

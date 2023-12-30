@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+}
+.contenedor{
+    background-color: grey;
+    width: 50%;
+    float: left;
+    margin-left: 25vw;
+    height: 80vh;
+}
+.header{
+    background-color: pink;
+    width: 35vw;
+    height: 7vh;
+    float: left;
+    margin-left: 7vw;
+    padding: 1%;
+    margin-top: 3vh;
+}
+.aside{
+    background-color: blue;
+    float: left;
+    margin-left: 7vw;
+    width: 11vw;
+    height: 50vh;
+    margin-top: 3vh;
+}
+.article{
+    background-color: red;
+    float: right;
+    margin-right: 13%;
+    margin-top: 3vh;
+    width: 23vw;
+    height: 50vh;
+}
+.footer{
+    background-color: pink;
+    width: 35vw;
+    height: 7vh;
+    float: left;
+    margin-left: 7vw;
+    padding: 1%;
+    margin-top: 3vh;
+}
+.iframe1{
+    float: left;
+    width: 6vw;
+    height: 18vh;
+    margin-left: 1vw;
+    background-image: url("../imagenes/1352718783_rssshop.png");
+    margin-top: 10vh;
+}
+.iframe2{
+    float: left;
+    width: 6vw;
+    height: 18vh;
+    margin-left: 1vw;
+    background-image: url("../imagenes/1352718809_youtube_shop.png");
+    margin-top: 10vh;
+}
+.iframe3{
+    float: left;
+    width: 6vw;
+    height: 18vh;
+    margin-left: 1vw;
+    background-image: url("../imagenes/1352718831_forrstshop.png");
+    margin-top: 10vh;
+}
+.iframe4{
+    border: 0px;
+    width: 11vw;
+    height: 50vh;
+}
+ul{
+    list-style: none;
+    border: 1px solid black;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+li{
+    border-top: 1px solid black;
+}
+li a:hover,li a:active{background: blue;}
+li a:visited{
+    color: green;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var fecha=new Date(2023,06,11);
+        var mes=fecha.getMonth;
+        function cuatri(m){
+            if(m==2 || m==3 || m==4 || m==5 || m==6){
+                return 'Estas en el segundo cuatri';
+            }else if(m==9 || m==10 || m==11 || m==12 || m==1){
+                return 'Estas en el primer cuatri';
+            }else{
+                return 'Estas de vacaciones';
+            }
+        }
+
+        document.write(cuatri(3));
+    </script>
+</body>
+</html>
