@@ -1,0 +1,927 @@
+/*ESTILO BÁSICO DE LA PÁGINA*/
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hiddenn !important;
+}
+
+/*A9907E,F3DEBA,ABC4AA,675D50*/
+.navbar-nav{
+  margin-left: 29%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important; /* Cambia el color de la letra a blanco en todo el submenu(menos la parte del logo*/
+  }
+
+*{
+    font-family: monospace;
+    /*la misma fuente para toda la pagina*/
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.encabezado{
+background-color: #A9907E;
+height: 15vh;
+color: black;
+font-size: 2vh;
+font-weight: bold;
+}
+
+
+.pie{
+    background-color: #A9907E;
+    height: 5vh;
+    text-align: center;
+}
+.pie p{
+    color: black;
+    font-weight: bold;
+}
+.container-fluid{
+  overflow: auto;
+}
+
+.introduccion{
+    background-color: #F3DEBA;
+    height: 20vh;
+    text-align: center;
+    color: black;
+    border: 0;
+    padding: 0;
+}
+.introduccion p{
+  margin-top: 8vh;
+}
+.carousel-container{
+  height: 57.5vh !important;
+  overflow-x: hidden !important;
+}
+.carousel-item{
+  height: 57.5vh !important;
+}
+.c{
+  background-color: #ABC4AA;
+}
+.c h3{
+  font-weight: bold;
+}
+.xd{
+background-color:#ABC4AA ;
+}
+
+.prueba{
+padding: 0px;
+}
+
+.pechito:hover{
+  background-color: red;
+}
+/*.medio{
+  background-color: #F3DEBA;
+  color: black;
+}*/
+
+/*.carousel-item{
+  height: 60vh;
+  background-color: #ABC4AA;
+  color: black;
+  border: 0;
+  padding: 0;
+}
+/*.medio .carrusel{
+  color: white;
+}
+table{
+    border: 0%;
+    text-align: center;
+    padding: 0;
+}
+
+/*CARRUSEL*/
+.carousel-container h1,.carousel-container p{
+  color: black !important;
+  text-align: center;
+}
+.carousel-item .active h3{
+  font-weight: bold;
+}
+/*.carrusel{
+    height: 58vh;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}*/
+ .corredor{
+  width: 25vw;
+  height: 25vh;
+  float: left;
+  margin-top: 10vh;
+  margin-left: 1vw;
+} 
+
+ .gif{
+  width: 20vw;
+  height: 20vh;
+  margin-right: 0.5w;
+  margin-top: 20vh;
+  float: right;
+}
+ .cerebro{
+  width:30vw;
+  height: 25vh;
+  margin-top: 10vh;
+  margin-left: 1vw;
+  float: right;
+}
+.ensaladaFoto{
+  width:30vw;
+  height: 30vh;
+  margin-top: 22vh;
+  margin-right: 1vw;
+  float: left;
+}
+ .chocolate1{
+  width:24vw;
+  height: 24vh;
+  margin-top: 10vh;
+  float: left;
+  margin-left: 2vw;
+}
+ .chocolate2{
+  width:28vw;
+  height: 28vh;
+  float: right;
+  margin-top: 22vh;
+}
+
+h1,h2,h3{
+    font-size: 10.em;
+    text-align: center;
+}
+div h6{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.centro{
+    width: 50vw;
+    height: 90vh;
+}
+.laterales img{
+    width: 20vw;
+    height: 25vh;
+}
+/*MALOS ALIMENTOS*/
+.alimentos{
+  overflow-y: hidden;
+}
+.section1,.section2,.section3{
+  text-align: center;
+  color: black;
+}
+.section1 h4,.section2 h4,.section3 h4{
+  font-weight: bold;
+}
+.section1,.section2,.section3{
+  background-color: #F3DEBA;
+}
+
+.section1 .azucar1{
+  width: 15vw;
+  height: 15vh;
+  float: left;
+  margin-top: 2%;
+}
+.section1 .azucar2{
+  width: 15vw;
+  height: 15vh;
+  float: right;
+}
+.section2 .patatas1{
+  width: 15vw;
+  height: 15vh;
+  float: left;
+  margin-top: 2%;
+}
+.section2 .patatas2{
+  width: 15vw;
+  height: 15vh;
+  float: right;
+}
+.section3 .rebozados1{
+  width: 15vw;
+  height: 15vh;
+  float: left;
+  margin-top: 2%;
+}
+.section3 .rebozados2{
+  width: 15vw;
+  height: 15vh;
+  float: right;
+}
+/*MALOS HABITOS*/
+.maloshabitos{
+  background-color: #F3DEBA;
+  color: black;
+  text-align: center;
+}
+.maloshabitos h3{
+  font-weight: bold;
+}
+
+.cerveza{
+  width: 20vw;
+  height: 20vh;
+  margin-top: 10%;
+}
+.hamburguesa{
+  margin-top: 45%;
+  width: 22vw;
+  height: 22vh;
+}
+.fumar{
+  width: 16vw;
+  height: 16vh;
+}
+.video{
+  width: 50vw;
+}
+/*para tener la el borde entre la introduccion y el div medio donde esta el carrusel(despues las siguienets secciones)
+ponemos una clase c al div del carrusel para poder diferenciarlo*/
+#enlace .c{
+  border:0;
+  padding: 0;
+}
+/*EL MENU ES CADA*/
+.dropdown-menu,.dropdown-item{
+  background-color: #A9907E;
+}
+/*EL ITEM ES DONDE PINCHAS*/
+.dropdown-item{
+  color: white;
+}
+/*CALENDARIO*/
+.container-fluid h3{
+  font-weight: bold;
+}
+.container-fluid .calendario{
+  margin:auto;
+  width: 100%;
+  background-color: #F3DEBA;
+}
+.calendar {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    width: 20%;
+    margin: 0%;
+  }
+  
+  .month {
+    background-color: #A9907E;
+    text-align: center;
+    padding: 0.5%;
+    color: black;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ccc;
+    padding: 0%;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+  }
+  
+  .days div {
+    width: 2vw;
+    height: 3vh;
+    border: 0.1em solid #ccc;
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .days div:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .current-day {
+    background-color: #b3d7ff;
+  }
+  
+  .paginas{
+    border: 0;
+    float: top;
+    margin-top: 25vh;
+    color: #A9907E;
+  }
+
+
+/*CARRUSEL DE NOTICIAS
+.carrusel{
+  overflow: hidden !important;
+  border: 0;
+  margin: 0;
+}*/
+
+.carousel-item iframe{
+    height: 125vh;
+    width: 100vw;
+    border: 0;
+    margin: 0 ;
+}
+
+/*body .noticias{
+  background-image: url('../img/fondoVerde3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel-container {
+  border: 0;
+  padding: 0;
+}
+
+/*FORMULARIO
+
+.formulario {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin :auto;
+    width: 100%;/*ya que tenemos puesto col-6
+  }
+  
+  .formulario iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+/*RECETAS*/
+
+.recetas1,.recetas2,.recetas3{
+  border-top: black solid 0.5vh;
+  color: black;
+  background-color: #F3DEBA;
+}
+
+.ensalada,.pasta,.albondigas{
+  border-top: black solid 0.5vh;
+  font-size: 70%;
+}
+.zanahoria,.calamares,.papayas{
+  border-top: black solid 0.5vh;
+  border-bottom: black solid 0.5vh;
+  font-size: 70%;
+}
+.espaguetis,.coliflor,.fruta{
+  font-size: 70%;
+}
+
+.espaguetis img{
+  float: right;
+  margin-right: 12%;
+  width: 22vw;
+  height: 27vh;
+}
+
+.ensalada img{
+  float: right;
+  margin-right: 12%;
+  width: 22vw;
+  height: 26vh;
+}
+.zanahoria img{
+  float: right;
+  margin-right: 12%;
+  width: 20vw;
+  height: 18vh;
+}
+
+.coliflor img{
+  float: right;
+  margin-right: 12%;
+  width: 20vw;
+  height: 20vh;
+}
+.pasta img{
+  float: right;
+  margin-right: 18%;
+  width: 23vw;
+  height: 21vh;
+}
+
+.calamares img{
+  float: right;
+  margin-right: 10%;
+  width: 23vw;
+  height: 22vh;
+}
+.fruta img{
+  float: right;
+  margin-right: 10%;
+  width: 19vw;
+  height: 21.5vh;
+}
+.albondigas img{
+  float: right;
+  margin-right: 6%;
+  width: 19vw;
+  height: 21.5vh;
+}
+.papayas img{
+  float: right;
+  margin-right: 6%;
+  width: 19vw;
+  height: 21.5vh;
+}
+
+
+
+/*PAGINATION*/
+/* Cambiar color de los cuadrados y números de los botones de paginación */
+.pagination .page-item a.page-link {
+  background-color: #ABC4AA; /* Cambia el color de fondo*/ 
+  color: black; /* Cambia el color del texto */
+}
+
+/* Cambiar color del botón "Anterior" y "Siguiente" */
+.pagination .page-item .page-link {
+  background-color: #ABC4AA; /* Cambia el color de fondo */
+  color: black; /* Cambia el color del texto */
+}
+
+/* Cambiar color del texto de los botones de paginación */
+.pagination .page-item .page-link {
+  color: black; /* Cambia el color del texto */
+}
+
+.pagination{
+  float: left;
+  margin-left: 91vh;
+  font-size: 100%;
+  margin-bottom: 0;
+}
+
+
+
+/*FORMULARIO
+fieldset legend,fieldset p{
+  text-align: center;
+  color: black;
+}
+
+fieldset label,fieldset input,fieldset textarea{
+  margin-left: 5vw;
+  color: black;
+}*/
+
+
+
+
+.col-6.paginas h6{
+  text-align: center;
+  color: white;
+}
+
+
+.has-tooltip {
+  background-color: #A9907E;
+  font-weight: bold;
+}
+.col-12 .c{
+  overflow:hidden !important;
+}
+
+
+/*MAPA*/
+.container-fluid .m{
+  background-color: #F3DEBA;
+  text-align: center;
+  font-weight: bold;
+}
+.mapa{
+  margin: auto;
+  margin-left: 1vw;
+}
+.mapa area:hover {
+  background-color: yellow;
+}
+
+/*EJERCICIOS*/
+.pecho video{
+  width: 40vw;
+  height: 30vh;
+}
+.pecho{
+  text-align: center;
+  color: black;
+}
+
+
+/*CARD DEL CALENDARIO*/
+.card {
+  position: relative;
+  width: 25vw;
+  height: 40vh;
+}
+
+.tablaT {
+  align-items: center;
+}
+
+.card div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition: 0.85s;
+  background-color: black;
+}
+
+.cartaNegra {
+  background-color: #A9907E !important;
+}
+
+.bordes {
+  border: 7px solid black;
+}
+
+.card .front {
+  background-color: #A9907E;
+  transform: perspective(500px) rotateY(0deg);
+}
+
+.card:hover .front {
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.fuenteC {
+  font-family: mifuente;
+  font-size: 100%;
+  color: black;
+  align-items: center;
+}
+
+
+.card:hover .back {
+  transform: perspective(500px) rotateY(360deg);
+}
+/*Fuente de atrás*/
+.fuenteA {
+  font-family: mifuente;
+  font-size: 135%;
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+
+.card .back {
+  background-color: #A9907E;
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.tamano {
+  height: 80vh;
+}
+
+.pecho,.pecho ul,.pecho li{
+  background-color: #F3DEBA;
+  text-align: center;
+}
+.pecho h3{
+  font-weight: bold;
+}
+.pecho video{
+  width: 40vw;
+  height: 30vh;
+}
+
+/*ESTILO BÁSICO DE LA PÁGINA()
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar-nav {
+  margin-left: 29%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+
+* {
+  font-family: monospace;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.encabezado {
+  background-color: #A9907E;
+  height: 15vh;
+  color: black;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.container-fluid {
+  overflow: auto;
+}
+
+.introduccion {
+  background-color: #F3DEBA;
+  height: 20vh;
+  text-align: center;
+  color: black;
+  border: 0;
+  padding: 0;
+}
+
+.introduccion p {
+  margin-top: 8vh;
+}
+
+.carousel-container {
+  height: 57.5vh !important;
+  overflow-x: hidden !important;
+}
+
+.carousel-item {
+  height: 57.5vh !important;
+}
+
+.c {
+  background-color: #ABC4AA;
+}
+
+.c h3 {
+  font-weight: bold;
+}
+
+.xd {
+  background-color: #ABC4AA;
+}
+
+.prueba {
+  padding: 0px;
+}
+
+.pechito:hover {
+  background-color: red;
+}
+
+table {
+  border: 0%;
+  text-align: center;
+  padding: 0;
+}
+
+/*CARRUSEL
+.carousel-container h1,
+.carousel-container p {
+  color: black !important;
+  text-align: center;
+}
+
+.carousel-item .active h3 {
+  font-weight: bold;
+}
+
+.centro {
+  width: 50vw;
+  height: 90vh;
+}
+
+.laterales img {
+  width: 20vw;
+  height: 25vh;
+}
+
+/*MALOS ALIMENTOS
+.alimentos {
+  overflow-y: hidden;
+}
+
+.section1,
+.section2,
+.section3 {
+  text-align: center;
+  color: black;
+}
+
+.section1 h4,
+.section2 h4,
+.section3 h4 {
+  font-weight: bold;
+}
+
+.section1,
+.section2,
+.section3 {
+  background-color: #F3DEBA;
+}
+
+.section1 .azucar1,
+.section1 .azucar2,
+.section2 .patatas1,
+.section2 .patatas2,
+.section3 .rebozados1,
+.section3 .rebozados2 {
+  width: 15vw;
+  height: 15vh;
+  float: left;
+  margin-top: 2%;
+}
+
+/*MALOS HABITOS
+.maloshabitos {
+  background-color: #F3DEBA;
+  color: black;
+  text-align: center;
+}
+
+.maloshabitos h3 {
+  font-weight: bold;
+}
+
+.cerveza {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 10%;
+}
+
+.hamburguesa {
+  margin-top: 45%;
+  width: 22vw;
+  height: 22vh;
+}
+
+.fumar {
+  width: 16vw;
+  height: 16vh;
+}
+
+.video {
+  width: 50vw;
+}
+
+/*CALENDARIO
+.container-fluid h3 {
+  font-weight: bold;
+}
+
+.container-fluid .calendario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.calendar {
+  width: 80vw;
+  max-width: 900px;
+  background-color: #F3DEBA;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.calendar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.calendar .header .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.calendar .header .button {
+  background-color: #ABC4AA;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar .header .button:hover {
+  background-color: #87A98F;
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar th {
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.calendar td {
+  padding: 8px 0;
+}
+
+.calendar .weekdays {
+  background-color: #E6C7A7;
+  color: black;
+}
+
+.calendar .weekdays th {
+  font-weight: normal;
+}
+
+.calendar .days td {
+  text-align: center;
+}
+
+.calendar .days .day {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calendar .days .day:hover {
+  background-color: #E6C7A7;
+}
+
+.calendar .days .day.empty {
+  background-color: transparent;
+  cursor: default;
+}
+
+.calendar .days .day.current-day {
+  font-weight: bold;
+  background-color: #ABC4AA;
+  color: white;
+}
+
+.calendar .days .day.event {
+  background-color: #ABC4AA;
+  color: white;
+}
+
+.calendar .days .day.selected {
+  background-color: #87A98F;
+  color: white;
+}
+
+.calendar .days .day .day-number {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calendar .days .day .day-events {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: none;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.calendar .days .day:hover .day-events {
+  display: block;
+}
+
+.calendar .days .day .day-events .event {
+  margin-bottom: 4px;
+}
+*/
+

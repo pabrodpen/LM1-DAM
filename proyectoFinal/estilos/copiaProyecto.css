@@ -1,0 +1,294 @@
+/*ESTILO BÁSICO DE LA PÁGINA*/
+body {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  /* Movemos los menus a la izquierda para que quepa el logo */
+  .navbar-nav {
+    margin-left: 29%;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black !important; /* Cambia el color de la letra a blanco en todo el submenu (menos la parte del logo) */
+  }
+  
+  * {
+    font-family: monospace; /* La misma fuente para toda la página */
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .encabezado {
+    background-color: #A9907E;
+    height: 15vh;
+    color: black;
+    font-size: 2vh;
+    font-weight: bold;
+  }
+  
+  .pie {
+    background-color: #A9907E;
+    height: 5vh;
+    text-align: center;
+  }
+  
+  .pie p {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .container-fluid {
+    overflow: auto;
+  }
+  
+  .introduccion {
+    background-color: #F3DEBA;
+    height: 20vh;
+    text-align: center;
+    color: black;
+    border: 0;
+    padding: 0;
+  }
+  
+  .introduccion p {
+    margin-top: 8vh;
+  }
+  
+  .carousel-container {
+    height: 57.5vh !important;
+    overflow-x: hidden !important;
+  }
+  
+  .carousel-item {
+    height: 57.5vh !important;
+  }
+  
+  .c {
+    background-color: #ABC4AA;
+  }
+  
+  .c h3 {
+    font-weight: bold;
+  }
+  
+  .xd {
+    background-color: #ABC4AA;
+  }
+  
+  .prueba {
+    padding: 0px;
+  }
+  
+  .pechito:hover {
+    background-color: red;
+  }
+  
+  table {
+    border: 0%;
+    text-align: center;
+    padding: 0;
+  }
+  
+  /*CARRUSEL*/
+  .carousel-container h1, .carousel-container p {
+    color: black !important;
+    text-align: center;
+  }
+  
+  .carousel-item .active h3 {
+    font-weight: bold;
+  }
+  
+  /* Carrusel de noticias */
+  .carrusel {
+    overflow: hidden !important;
+    border: 0;
+    margin: 0;
+  }
+  
+  .carousel-item iframe {
+    height: 125vh;
+    width: 100vw;
+    border: 0;
+    margin: 0;
+  }
+  
+  /* MALOS ALIMENTOS */
+  .alimentos {
+    overflow-y: hidden;
+  }
+  
+  .section1, .section2, .section3 {
+    text-align: center;
+    color: black;
+  }
+  
+  .section1 h4, .section2 h4, .section3 h4 {
+    font-weight: bold;
+  }
+  
+  .section1, .section2, .section3 {
+    background-color: #F3DEBA;
+  }
+  
+  .section1 .azucar1 {
+    width: 15vw;
+    height: 15vh;
+    float: left;
+    margin-top: 2%;
+  }
+  
+  .section1 .azucar2 {
+    width: 15vw;
+    height: 15vh;
+    float: right;
+  }
+  
+  .section2 .patatas1 {
+    width: 15vw;
+    height: 15vh;
+    float: left;
+    margin-top: 2%;
+  }
+  
+  .section2 .patatas2 {
+    width: 15vw;
+    height: 15vh;
+    float: right;
+  }
+  
+  .section3 .rebozados1 {
+    width: 15vw;
+    height: 15vh;
+    float: left;
+    margin-top: 2%;
+  }
+  
+  .section3 .rebozados2 {
+    width: 15vw;
+    height: 15vh;
+    float: right;
+  }
+  
+  .alimentos h4 {
+    margin-top: 5vh;
+    font-weight: bold;
+  }
+  
+  .alimentos p {
+    margin-top: 3vh;
+  }
+  
+  /* MEDIDAS DE EMERGENCIA */
+  .emergencia {
+    background-color: #ABC4AA;
+    height: 80vh;
+    padding: 3%;
+  }
+  
+  .emergencia h2, .emergencia p {
+    color: black;
+    text-align: center;
+  }
+  
+  .emergencia p {
+    margin-top: 2%;
+  }
+  
+  .emergencia .btn {
+    margin-top: 3%;
+  }
+  
+  /* FOOTER */
+  .footer {
+    background-color: #A9907E;
+    height: 20vh;
+    padding-top: 2%;
+    text-align: center;
+    color: black;
+  }
+  
+  .footer p {
+    margin-top: 2%;
+    font-weight: bold;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 768px) {
+    /* Modificaciones para dispositivos móviles */
+    .navbar-nav {
+      margin-left: 0;
+    }
+  
+    .navbar-light .navbar-nav .nav-link {
+      color: white !important;
+    }
+  
+    .logo {
+      margin-top: 1%;
+    }
+  
+    .encabezado {
+      font-size: 3.5vh;
+    }
+  
+    .introduccion p {
+      margin-top: 10vh;
+    }
+  
+    .carousel-container {
+      height: 100vh !important;
+    }
+  
+    .carousel-item {
+      height: 100vh !important;
+    }
+  
+    .carousel-item iframe {
+      height: 300px;
+    }
+  
+    .alimentos .azucar1,
+    .alimentos .azucar2,
+    .alimentos .patatas1,
+    .alimentos .patatas2,
+    .alimentos .rebozados1,
+    .alimentos .rebozados2 {
+      width: 80vw;
+      height: auto;
+      float: none;
+      margin: 0 auto;
+      margin-top: 2%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Modificaciones para dispositivos móviles más pequeños */
+    .encabezado {
+      font-size: 2.5vh;
+    }
+  
+    .introduccion p {
+      margin-top: 13vh;
+    }
+  
+    .carousel-container {
+      height: 100vh !important;
+    }
+  
+    .carousel-item {
+      height: 100vh !important;
+    }
+  
+    .carousel-item iframe {
+      height: 200px;
+    }
+  }
+   
